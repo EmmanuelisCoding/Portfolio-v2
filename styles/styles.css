@@ -1,0 +1,8 @@
+body {
+  /* background-color: rgb(253, 243, 229); */
+  background-color: rgb(193, 237, 252);
+}
+
+body > div:first-child {
+  overflow-x: hidden;
+}
