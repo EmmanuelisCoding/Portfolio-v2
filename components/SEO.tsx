@@ -5,14 +5,19 @@ import { seoData } from '../portfolio';
 function SEO() {
   return (
     <Head>
-      <!-- Google tag (gtag.js) -->
+      {/* Google tag (gtag.js) */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7CWBEMQ90"></script>
       <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-B7CWBEMQ90');
+        {
+          `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+    
+            gtag('config', 'G-B7CWBEMQ90');
+          `
+        }
+        
       </script>
       <title>{seoData.title}</title>
       <meta name="title" content={seoData.title} />
