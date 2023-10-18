@@ -21,7 +21,7 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: '',
 };
 
 export const contact = {};
@@ -170,22 +170,22 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: 'Blognet',
+    desc: '',
+    link: 'https://blognet.tg',
+  },
+  {
     name: 'Admin dashboard',
     desc: '',
     link: 'https://admin-dashboardzz.netlify.app/',
   },
   {
-    name: 'AtlasMart',
+    name: 'Frutifresh Togo',
     desc: '',
-    link: 'https://admin-dashboardzz.netlify.app/',
+    link: 'https://http://frutifreshtogo.com/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: '',
-    link: 'https://admin-dashboardzz.netlify.app/',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
+    name: 'Le patio',
     desc: '',
     link: 'https://admin-dashboardzz.netlify.app/',
   },
