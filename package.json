@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/EmmanuelisCoding/Portfolio-v2",
   "author": "Emmanuel Owouko",
-  "license": "",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
